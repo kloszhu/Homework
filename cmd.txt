@@ -1,0 +1,6 @@
+cd %dp%
+dotnet new sln -n Homework
+dotnet new webapi -n HomeWork.API
+dotnet new classlib -n HomeWork.Service
+dotnet sln add .\HomeWork.API
+dotnet sln add .\HomeWork.Service
